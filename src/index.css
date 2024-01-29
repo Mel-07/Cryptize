@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100dvh;
+  box-sizing: border-box;
+  padding: unset;
+  margin: unset;
+  list-style: none;
+  scroll-behavior: smooth;
+  
+}
+body{
+  outline: 1px solid rgb(242, 242, 242);
+  background: #000;
+  position: relative;
+}
+.parent-container > .child-element{
+  transform: translateY(0%);
+  transition: transform .7s ease-in-out;
+}
+.parent-container:hover > .child-element{
+   transform: translateY(-100%);
+}
+
+
