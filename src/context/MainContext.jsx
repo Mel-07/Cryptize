@@ -19,9 +19,8 @@ import professionalOne from '../assets/img/professional-businessman-portrait-in-
 import professionalTwo from '../assets/img/professional-businessman-portrait-in-a-studio-TP6K6W7-1.png'
 import professionalThree from '../assets/img/businessman-adult-portrait-occupation-concept-LY785SH-1.png'
 // icon
-import { FaFacebookF } from "react-icons/fa6";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaPinterestP } from "react-icons/fa";
+import { FaFacebookF,FaXTwitter,FaPinterestP } from "react-icons/fa6";
+
 
 const MainContext = createContext()
 
