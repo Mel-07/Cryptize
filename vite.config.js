@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import reactIcons from 'react-icons/fa6';
+import reactIcons from 'react-icons'
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
