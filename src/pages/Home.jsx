@@ -5,10 +5,8 @@ import Steps from "../componets/Steps"
 import Property from "../componets/Property"
 import Review from "../componets/Review"
 import Experts from "../componets/Experts"
-import CarouselCard from "../componets/Carouselcard"
+import CarouselCard from "../componets/CarouselCard"
 import Slider from 'react-slick';
-import ButtonOneBlack from "../componets/ButtonOneBlack"
-import gsap from "gsap";
 import ButtonTwoWhite from "../componets/ButtonTwoWhite"
 import Image from "../componets/Image"
 import AssetTwo from '../assets/img/Asset-3_2.png'
