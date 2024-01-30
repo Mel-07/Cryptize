@@ -157,7 +157,7 @@ function Home() {
 <section className="bg-[#000000] h-fit grid place-content-center" > 
   <div className="max-w-[85rem] mx-auto" >
     <Heading Span={'Our Expert'} heading={'Experienced Expert In Cryptize'} />
-    <div className="flex mx-auto justify-between flex-wrap place-content-center gap-[2rem] p-4">
+    <div className="flex mx-auto justify-between flex-wrap place-content-center gap-[1rem] p-4">
       {
         executive.map((property,index)=>(
           <Experts
